@@ -1,0 +1,9 @@
+{
+    "name": "My Project",
+    "image": "biskit1943/vscode-haskell:latest",
+    "appPort": 8090,
+    "extensions": [
+        "alanz.vscode-hie-server",
+        "justusadam.language-haskell"
+    ]
+}

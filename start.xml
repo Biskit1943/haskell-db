@@ -1,0 +1,37 @@
+<tablename>
+  <user>
+    <id>1</id>
+    <fname>John</fname>
+    <lname>Snow</lname>
+  </user>
+  <user>
+    <id>2</id>
+    <fname>Henry</fname>
+    <lname>Ford</lname>
+  </user>
+  <user>
+    <id>3</id>
+    <fname>John</fname>
+    <lname>Travolta</lname>
+  </user>
+  <user>
+    <id>4</id>
+    <fname>Anton</fname>
+    <lname>Chekhov</lname>
+  </user>
+  <user>
+    <id>5</id>
+    <fname>George</fname>
+    <lname>Washington</lname>
+  </user>
+  <user>
+    <id>6</id>
+    <fname>William</fname>
+    <lname>Shakespeare</lname>
+  </user>
+  <user>
+    <id>7</id>
+    <fname>Nathaniel</fname>
+    <lname>Hawthorne</lname>
+  </user>
+</tablename>

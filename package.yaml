@@ -23,8 +23,11 @@ dependencies:
 - base >= 4.7 && < 5
 - haskeline
 - bytestring
+- utf8-string
 - containers
 - stm
+- split
+- hxt
 
 library:
   source-dirs: src
