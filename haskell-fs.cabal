@@ -1,0 +1,71 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: a13f700fdef3f3ea777687317a1393ca3772a7937f47dbfdc5eb237224e9cc17
+
+name:           haskell-fs
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/biskit1943/haskell-fs#readme>
+homepage:       https://github.com/biskit1943/haskell-db#readme
+bug-reports:    https://github.com/biskit1943/haskell-db/issues
+author:         Maximilian Konter
+maintainer:     biskit1943@gmx.de
+copyright:      2019 Maximilian Konter
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/biskit1943/haskell-db
+
+library
+  exposed-modules:
+      Filesystem
+  other-modules:
+      Paths_haskell_fs
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , haskeline
+    , split
+    , unix
+  default-language: Haskell2010
+
+executable haskell-fs-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_fs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , haskeline
+    , haskell-fs
+    , split
+    , unix
+  default-language: Haskell2010
+
+test-suite haskell-fs-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_haskell_fs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , haskeline
+    , haskell-fs
+    , split
+    , unix
+  default-language: Haskell2010

@@ -1,3 +1,3 @@
-# Changelog for haskell-db
+# Changelog for haskell-fs
 
 ## Unreleased changes

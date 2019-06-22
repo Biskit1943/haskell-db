@@ -1,4 +1,4 @@
-name:                haskell-db
+name:                haskell-fs
 version:             0.1.0.0
 github:              "biskit1943/haskell-db"
 license:             BSD3
@@ -17,23 +17,19 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/biskit1943/haskell-db#readme>
+description:         Please see the README on GitHub at <https://github.com/biskit1943/haskell-fs#readme>
 
 dependencies:
 - base >= 4.7 && < 5
 - haskeline
-- bytestring
-- utf8-string
-- containers
-- stm
 - split
-- hxt
+- unix
 
 library:
   source-dirs: src
 
 executables:
-  haskell-db-exe:
+  haskell-fs-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -41,10 +37,10 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - haskell-db
+    - haskell-fs
 
 tests:
-  haskell-db-test:
+  haskell-fs-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -52,4 +48,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - haskell-db
+    - haskell-fs
