@@ -1,6 +1,6 @@
 name:                haskell-fs
 version:             0.1.0.0
-github:              "biskit1943/haskell-db"
+github:              "biskit1943/haskell-fs"
 license:             BSD3
 author:              "Maximilian Konter"
 maintainer:          "biskit1943@gmx.de"

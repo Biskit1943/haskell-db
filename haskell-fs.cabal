@@ -9,8 +9,8 @@ cabal-version: 1.12
 name:           haskell-fs
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/biskit1943/haskell-fs#readme>
-homepage:       https://github.com/biskit1943/haskell-db#readme
-bug-reports:    https://github.com/biskit1943/haskell-db/issues
+homepage:       https://github.com/biskit1943/haskell-fs#readme
+bug-reports:    https://github.com/biskit1943/haskell-fs/issues
 author:         Maximilian Konter
 maintainer:     biskit1943@gmx.de
 copyright:      2019 Maximilian Konter
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/biskit1943/haskell-db
+  location: https://github.com/biskit1943/haskell-fs
 
 library
   exposed-modules:
